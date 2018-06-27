@@ -6,6 +6,7 @@ import index from '@/components/index/index'
 import speak from '@/components/speak/speak'
 import shopCar from '@/components/shopCar/shopCar'
 import my from '@/components/my/my'
+import boke from '@/components/boke/boke'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/my',
       name: 'my',
       component: my
+    },
+    {
+      path: '/boke',
+      name: 'boke',
+      component: boke
     }
   ]
 })
